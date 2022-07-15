@@ -8,7 +8,7 @@ export default function Corpo(){
                 <Stories />
              </div>
 
-
+            
 
          </div>
     )
