@@ -1,13 +1,13 @@
 export default function Stories(){
     const stories = [
-        {usuario: "9gag", imagem: "9gag.svg"},
-        {usuario: "meowed", imagem: "meowed.svg"},
-        {usuario: "barked", imagem: "barked.svg"},
-        {ususario: "nathanwpylestrangeplanet", imagem: "nathanwpylestrangeplanet.svg"},
-        {usuario: "wawawicomics", imagem: "wawawicomics.svg"},
-        {ususario: "respondeai", imagem: "respondeai.svg"},
-        {usuario: "filomoderna", imagem: "filomoderna.svg"},
-        {usuario: "memeriagourmet", imagem: "memeriagourmet"},
+        {usuario: "9gag", imagem:"assets/img/9gag.svg"}, 
+        {usuario: "meowed", imagem:"assets/img/meowed.svg"}, 
+        {usuario: "barked", imagem:"assets/img/barked.svg"}, 
+        {usuario: "9gnathanwpylestrangeplanetag", imagem:"assets/img/nathanwpylestrangeplanet.svg"}, 
+        {usuario: "wawawicomics", imagem:"assets/img/wawawicomics.svg"}, 
+        {usuario: "respondeai", imagem:"assets/img/respondeai.svg"}, 
+        {usuario: "filomoderna", imagem:"assets/img/filomoderna.svg"}, 
+        {usuario: "memeriagourmet", imagem:"assets/img/memeriagourmet.svg"}
     ]
 
     return(
