@@ -3,7 +3,7 @@ export default function Stories(){
         {usuario: "9gag", imagem:"assets/img/9gag.svg"}, 
         {usuario: "meowed", imagem:"assets/img/meowed.svg"}, 
         {usuario: "barked", imagem:"assets/img/barked.svg"}, 
-        {usuario: "9gnathanwpylestrangeplanetag", imagem:"assets/img/nathanwpylestrangeplanet.svg"}, 
+        {usuario: "nathanwpylestrangeplanetag", imagem:"assets/img/nathanwpylestrangeplanet.svg"}, 
         {usuario: "wawawicomics", imagem:"assets/img/wawawicomics.svg"}, 
         {usuario: "respondeai", imagem:"assets/img/respondeai.svg"}, 
         {usuario: "filomoderna", imagem:"assets/img/filomoderna.svg"}, 
