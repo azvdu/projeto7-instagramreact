@@ -25,7 +25,7 @@ function Story({imagem, usuario}){
     return(
         <div className="story">
             <div className="imagem">
-                <img src={`assets/img/${imagem}`} />
+                <img src={imagem} />
             </div>
             <div className="usuario">
                 {usuario}
