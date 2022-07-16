@@ -23,11 +23,11 @@ export default function Stories(){
 
 function Story({imagem, usuario}){
     return(
-        <div class="story">
-            <div class="imagem">
+        <div className="story">
+            <div className="imagem">
                 <img src={`assets/img/${imagem}`} />
             </div>
-            <div class="usuario">
+            <div className="usuario">
                 {usuario}
             </div>
       </div>

@@ -1,9 +1,9 @@
 export default function Sidebar(){
     return(
         <div className="sidebar">
-            <div class="usuario">
+            <div className="usuario">
                 <img src="assets/img/catanacomics.svg" />
-                <div class="texto">
+                <div className="texto">
                     <strong>catanacomics</strong>
                     Catana
                 </div>
@@ -15,7 +15,7 @@ export default function Sidebar(){
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
             </div>
 
-            <div class="copyright">
+            <div className="copyright">
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
 
@@ -35,7 +35,7 @@ function Sugestoes() {
 
     return(
         <div className="sugestoes">
-            <div class="titulo">
+            <div className="titulo">
                 Sugestões para você
                 <div>Ver tudo</div>
             </div>

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Posts(){
     const posts= [
         {usuario: "meowed", imgUsuario: "assets/img/meowed.svg", conteudo: "assets/img/gato-telefone.svg", curtida: "assets/img/respondeai.svg", perfilCurtida: "respondeai", qtdCurtidas: "101.523"},
@@ -13,6 +15,9 @@ export default function Posts(){
 }
 
 function Post({usuario, imgUsuario, conteudo, curtida, perfilCurtida, qtdCurtidas}){
+
+    const [like, setLike] = React.useState(false)
+
     return(
         <div className="post">
             <div className="topo">
@@ -32,7 +37,13 @@ function Post({usuario, imgUsuario, conteudo, curtida, perfilCurtida, qtdCurtida
             <div className="fundo">
                 <div className="acoes">
                     <div>
-                        <ion-icon name="heart-outline"></ion-icon>
+
+                        {like ?
+                            <ion-icon name="heart" style={{color: 'red'}} onClick={() => setLike(!like) }></ion-icon> :
+                            <ion-icon name="heart-outline" onClick={() => setLike(!like) }></ion-icon>
+                        }
+
+
                         <ion-icon name="chatbubble-outline"></ion-icon>
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </div>
